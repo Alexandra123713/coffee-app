@@ -78,7 +78,7 @@ function filterMenu (searchText) {
           let filteredMenu = document.createElement('a');
           filteredMenu.textContent = linkOfMenu.name;
           filteredMenu.href = '#' + linkOfMenu.id;
-  
+
           filteredMenu.addEventListener('click', function() {
               linksOfMenu.forEach(function(link) {
                   let targetId = link.id;
@@ -99,6 +99,7 @@ function filterMenu (searchText) {
                searchInput.value = linkOfMenu.name;
 
               }
+              searchInput.value = ''
           });
   
           filteredList.appendChild(filteredMenu);
@@ -114,6 +115,7 @@ function filterMenu (searchText) {
     noResult.textContent = 'No result';
     resultList.appendChild(noResult)
     } 
+
 }
 
 
