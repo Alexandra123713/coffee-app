@@ -1,49 +1,5 @@
-// const newSearchInput = document.getElementById('searchInput')
-
-// newSearchInput.addEventListener('input', function(){filterMenu(this.value);
-
-// });
-
-// function filterMenu (searchText) {
-//     const resultList = document.getElementById('result-list');
-
-//     if(!searchText){
-//         resultList.innerHTML = "";
-//         resultList.style.background = 'none'
-//         resultList.style.border = 'none'
-//         return;
-//     }
-//     const itemsOfMenu = ['Vanilla Latte', 'Espresso', 'Hazelnut Latte', 'Sandwich', 'Cappuccino', 'Hot Milk', 'Coffee Ice Cream', 'Moccacinno', 'Waffle Ice Cream']
-
-//     resultList.textContent = '';
-//     let noResult = true;
-
-//     itemsOfMenu.forEach(function(itemOfMenu){
-//         if(itemOfMenu.toLowerCase().includes(searchText.toLowerCase())){
-//             noResult = false
-//             let filteredMenu = document.createElement('li');
-//             filteredMenu.textContent = itemOfMenu;
-//             resultList.appendChild(filteredMenu)
-//             resultList.style.background = 'linear-gradient( 93deg, rgba(255, 254, 254, 0.4) 0.82%, rgba(255, 255, 255, 0.7) 96.47% )'
-//             resultList.style.backdropFilter = 'blur(2px)'
-//             resultList.style.borderRadius = '24px'
-//             resultList.style.border = '1px solid black'
-//         }
-
-//     });
-
-//     if(noResult === true) { 
-//     noResult = document.createElement('li');
-//     noResult.textContent = 'No result';
-//     resultList.appendChild(noResult)
-//     }
-// }
-
- 
 const newSearchInput = document.getElementById('searchInput')
-
 newSearchInput.addEventListener('input', function(){filterMenu(this.value);
-
 });
 
 function filterMenu (searchText) {
@@ -194,8 +150,6 @@ function validareEmail() {
         errorDiv.style.border = 'none'
         return
     }
-    
-
     else   
     errorDiv.textContent = 'Please enter a valid email address!'
     errorDiv.style.backgroundColor = 'white'
@@ -204,8 +158,6 @@ function validareEmail() {
     errorDiv.style.borderWidth = '1px'
     errorDiv.style.borderColor = 'red'
     errorDiv.style.color = 'red'
-
-
     resultDiv.innerHTML = '';
     resultDiv.style.background = 'none'
     resultDiv.style.border = 'none'
