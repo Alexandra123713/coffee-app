@@ -7,9 +7,11 @@ This is a web project simulating an interactive menu for a coffee shop, offering
 ## Features
 
 - **Live search:** filters the menu in real-time based on input text.
-- **Product highlighting:** users can select a product from the list, which will be highlighted on the page.
+- **Navigation to the menu item** – when a result is clicked, the user is taken directly to that element on the page, which is highlighted.
+- **Product highlighting:** users can select a product, which will be highlighted on the page.
 - **Newsletter subscription:** includes JavaScript validation for email addresses and visual feedback.
 - **Fixed navbar:** on scroll, the navbar stays fixed at the top of the page and changes style to improve readability.
+- **Internal page navigation (using anchors)**
 
 ## Technologies Used
 
@@ -34,7 +36,6 @@ Learning project with potential for further optimizations and enhancements.
 
 Project created by **Cerevatii Alexandra**.
 
-
 **Romana**
 
 # COFFEE-APP
@@ -44,9 +45,11 @@ Acesta este un proiect web care simulează un meniu interactiv pentru o cafenea,
 ## Funcționalități
 
 - **Căutare live:** filtrează meniul în timp real pe baza textului introdus.
-- **Evidențiere produs:** utilizatorul poate selecta un produs din listă, iar acesta va fi evidențiat pe pagină.
+- **Navigare către elementul din meniu** – la click pe un rezultat, utilizatorul este dus direct la acel element din pagină, care este evidențiat.
+- **Evidențiere produs:** utilizatorul poate selecta un produs, iar acesta va fi evidențiat pe pagină.
 - **Abonare la newsletter:** include validare JavaScript pentru adrese de e-mail și feedback vizual.
 - **Navbar fixed:** la scroll, navbarul rămâne fixat în partea de sus a paginii și își schimbă stilul pentru a îmbunătăți lizibilitatea.
+- **Navigare internă în pagină (cu ancore)**
 
 ## Tehnologii folosite
 
@@ -65,9 +68,8 @@ Acesta este un proiect web care simulează un meniu interactiv pentru o cafenea,
 
 ## Statut
 
-Proiect de învățare, cu potențial pentru optimizări și extinderi ulterioare. 
-
+Proiect de învățare, cu potențial pentru optimizări și extinderi ulterioare.
 
 ### Autor
 
-Proiect realizat de  **Cerevatii Alexandra**
+Proiect realizat de **Cerevatii Alexandra**
